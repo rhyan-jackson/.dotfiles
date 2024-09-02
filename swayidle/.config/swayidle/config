@@ -1,0 +1,9 @@
+# ~/.config/swayidle/config
+#
+before-sleep 'playerctl pause'
+lock 'swaylock --font Bambino-Regular'
+unlock 'swaymsg "output * dpms on"'
+after-resume 'swaymsg "output * dpms on"'
+timeout 60 'swaylock --font Bambino-Regular'
+timeout 120 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"'
+timeout 3600 'systemctl suspend' resume 'swaymsg "output * dpms on"'

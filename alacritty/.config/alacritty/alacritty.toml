@@ -1,0 +1,21 @@
+# Theme/colorscheme importing
+import = [
+    "~/.config/alacritty/themes/themes/dark_pride.toml",
+]
+
+[font]
+size = 14
+
+[font.normal]
+family = "MesloLGM Nerd Font"
+style = "regular"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.600000
+
+[window.padding]
+x = 30
+y = 30

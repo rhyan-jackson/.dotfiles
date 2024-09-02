@@ -1,0 +1,77 @@
+window#waybar {
+background: rgba(0, 0, 0, 0.2);
+border: 1px solid rgba(256, 256, 256, 1);
+border-radius: 20px;
+font-family: "SpaceMono Nerd Font";
+font-weight: 500;
+font-size: 16px;
+}
+
+.modules-right {
+  margin-right: 10px;
+}
+
+.modules-left {
+  margin-left: 10px;
+}
+
+
+.custom-spotify {
+    font-family: "CaskaydiaCove Nerd Font";
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+    margin: 5px 0px 5px 0px;
+    /*background-color: rgba(29, 185, 84, 0.85);*/
+    color: #0dff00;
+    border-radius: 30px;
+}
+
+#battery,
+#cpu,
+#memory,
+#backlight,
+#network,
+#clock,
+#bluetooth,
+#tray,
+#pulseaudio {
+padding: 0px 6px 0px 6px;
+}
+
+#workspaces {
+/*background-color: rgba(1, 31, 75, 1);*/
+padding: 4px 0px 4px 0px;
+/*border: 1px solid #f8f8fa;*/
+border-radius: 30px;
+}
+
+#workspaces button {
+box-shadow: inset 0 -3px transparent;
+padding: 0px 3px 0px 3px;
+border-radius: 30px;
+color: #f8f8fa;
+}
+
+#workspaces button.focused {
+background-color: rgba(248, 248, 250, 1);
+border-radius: 20px;
+padding: 0px 8px 0px 8px;
+font-size: 18px;
+color: #000000;
+}
+
+#workspaces button.urgent {
+color: #ff576a;
+}
+
+#battery,
+#cpu,
+#memory,
+#backlight,
+#network,
+#clock,
+#tray,
+#pulseaudio 
+{
+color: #f8f8fa;
+}

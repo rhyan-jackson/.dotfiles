@@ -1,0 +1,9 @@
+input "7847:100:2.4G_Mouse" {
+  accel_profile adaptive
+  pointer_accel -0.2
+  natural_scroll disabled
+  scroll_factor 1.0
+  scroll_button BTN_MIDDLE
+  left_handed disabled
+  middle_emulation enabled
+}
