@@ -47,7 +47,8 @@ exec_always {
 #timeout variables
 
 exec {
-  swayidle -w
+  swayidle
+  trash-empty 5
 }
 
 
@@ -64,7 +65,7 @@ set $down j
 set $up k
 set $right l
 set $term alacritty --working-directory /home/rhyan/
-set $menu /home/rhyan/.config/rofi/launchers/type-2/launcher.sh | xargs swaymsg exec --
+set $menu /home/rhyan/.config/rofi/launchers/type-4/launcher.sh | xargs swaymsg exec --
 set $power_menu /home/rhyan/.config/rofi/powermenu/type-2/powermenu.sh
 
 # printing keybinds

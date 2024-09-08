@@ -12,7 +12,7 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-2"
-theme='style-3'
+theme='style-8'
 
 # CMDs
 uptime="$(uptime -p | sed -e 's/up //g')"
@@ -67,8 +67,7 @@ run_cmd() {
     elif [[ $1 == '--reboot' ]]; then
       systemctl reboot
     elif [[ $1 == '--suspend' ]]; then
-      mpc -q pause
-      amixer set Master mute
+      playerctl pause
       systemctl suspend
     elif [[ $1 == '--logout' ]]; then
       swaymsg exit

@@ -115,6 +115,7 @@ alias laa="ls -a"
 alias fetch="nerdfetch"
 alias sp="sudo pacman"
 alias c="clear"
+alias rm='echo "This is not the command you are looking for."; false'
 # alias fetch="pokemonfetch"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

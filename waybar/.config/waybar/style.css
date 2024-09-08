@@ -1,10 +1,11 @@
 window#waybar {
 background: rgba(0, 0, 0, 0.2);
 border: 1px solid rgba(256, 256, 256, 1);
-border-radius: 20px;
-font-family: "SpaceMono Nerd Font";
+border-radius: 10px;
+/*font-family: "SpaceMono Nerd Font";*/
+font-family: "OpenDyslexic Nerd Font";
 font-weight: 500;
-font-size: 16px;
+font-size: 14px;
 }
 
 .modules-right {
@@ -17,7 +18,8 @@ font-size: 16px;
 
 
 .custom-spotify {
-    font-family: "CaskaydiaCove Nerd Font";
+    /*font-family: "CaskaydiaCove Nerd Font";*/
+    font-family: "OpenDyslexic Nerd Font";
     font-size: 14px;
     padding: 0px 10px 0px 10px;
     margin: 5px 0px 5px 0px;
@@ -40,23 +42,25 @@ padding: 0px 6px 0px 6px;
 
 #workspaces {
 /*background-color: rgba(1, 31, 75, 1);*/
-padding: 4px 0px 4px 0px;
+/*padding: 0px 0px 0px 0px;*/
 /*border: 1px solid #f8f8fa;*/
 border-radius: 30px;
 }
 
 #workspaces button {
-box-shadow: inset 0 -3px transparent;
+/*box-shadow: inset 0 -3px transparent;*/
 padding: 0px 3px 0px 3px;
 border-radius: 30px;
 color: #f8f8fa;
+/*margin: 5px 0px 5px 0px;*/
 }
 
 #workspaces button.focused {
 background-color: rgba(248, 248, 250, 1);
-border-radius: 20px;
-padding: 0px 8px 0px 8px;
-font-size: 18px;
+border-radius: 30px;
+padding: 0px 5px 0px 5px;
+margin: 5px 0px 5px 0px;
+font-size: 13px;
 color: #000000;
 }
 
